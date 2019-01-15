@@ -3,6 +3,7 @@
 }
 
 body {
+    /* Prevents scrolling, so you can use the mousewheel exclusively for the perspective */
     overflow: hidden;
 }
 
