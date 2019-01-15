@@ -19,9 +19,9 @@ div {
     left: 50%;
     transform: translate(-50%, -50%);
     perspective: 600px;
-    transition: perspective 1s, 
-                perspective-origin-x 1s,
-                perspective-origin-y 1s;
+    transition: perspective 0.1s, 
+                perspective-origin-x 0.1s,
+                perspective-origin-y 0.1s;
 }
 
 /*
