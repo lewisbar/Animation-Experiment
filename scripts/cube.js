@@ -51,4 +51,4 @@ function wheelAction(event) {
 
     scene.style.perspective = newPerspective;
 }
-scene.addEventListener("wheel", wheelAction);
+document.addEventListener("wheel", wheelAction);
