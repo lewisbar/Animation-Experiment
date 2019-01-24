@@ -2,14 +2,29 @@
 <html>
     <head>
         <title>Animation Experiments</title>
+        <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <header>Animation Experiments</header>
-        <nav>
-            <ul>
-                <li><a href="stretch/index.html">Stretching Rectangle</a></li>
-                <li><a href="cube/index.html">Spinning Cube</a></li>
-            </ul>
-        </nav>
+        <header><h1>Animation Experiments</h1></header>
+        <a href="stretch/index.html">
+            <div id="stretch" class="icon">
+                <div class="icon-title" id="stretch-title">Stretching Rectangle</div>
+            </div>
+        </a>
+        <a href="cube/index.html">
+            <div id="scene" class="icon">
+                <div id="cube1" class="cube">
+                    <div id="front" class="cubeface">
+                        <div class="icon-title">Spinning Cube</div>
+                    </div>
+                    <div id="back" class="cubeface">Back</div>
+                    <div id="left" class="cubeface">Left</div>
+                    <div id="right" class="cubeface">Right</div>
+                    <div id="top" class="cubeface">Top</div>
+                    <div id="bottom" class="cubeface">Bottom</div>
+                </div>
+            </div>
+        </a>
+        <div id="more" class="icon"><div class="icon-title" id="more-title">More to come ...</div></div>
     </body>
 </html>
