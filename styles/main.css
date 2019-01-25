@@ -8,22 +8,27 @@ header {
     margin-bottom: 20px;
 }
 
+#layout-container {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
     color: black;
 }
 
 .icon {
+    display: inline-block;
     box-sizing: border-box;
-    width: 26.8vmax;
-    height: 26.8vmax;
+    width: 26.5vmax;
+    height: 26.5vmax;
     margin: 3vmax;
     min-width: 200px;
     min-height: 200px;
     padding: 10vmax 0;
     border: 0.2vmax solid black;
     transition: transform 0.2s;
-    float: left;
+    /* float: left; */
 }
 
 .icon:hover {
