@@ -54,6 +54,11 @@ a {
     background-color: rgba(255, 183, 29, 0.9);
 }
 
+@viewport {
+    width: device-width ;
+    zoom: 1.0 ;
+}
+
 @media screen and (max-width:320px) {
     .icon {
         width: 96vmin;
