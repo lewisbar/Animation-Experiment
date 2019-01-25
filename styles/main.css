@@ -44,6 +44,7 @@ a {
         padding: 10vmax 0;
         border: 0.2vmax solid black;
         transition: transform 0.2s;
+        color: white;  /* for testing */
     }
 }
 
