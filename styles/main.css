@@ -53,3 +53,11 @@ a {
 #more {
     background-color: rgba(255, 183, 29, 0.9);
 }
+
+@media screen and (max-width:320px) {
+    .icon {
+        width: 96vmin;
+        height: 96vmin;
+        margin: 3vmin;
+    }
+}
