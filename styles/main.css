@@ -17,7 +17,7 @@ a {
     color: black;
 }
 
-@media only screen and (min-device-width:321px) {
+@media only screen and (min-width:321px) {
     .icon {
         display: inline-block;
         box-sizing: border-box;
@@ -32,7 +32,7 @@ a {
     }
 }
 
-@media only screen and (max-device-width:320px) {
+@media only screen and (max-width:320px) {
     .icon {
         display: inline-block;
         box-sizing: border-box;
