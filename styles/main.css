@@ -17,18 +17,35 @@ a {
     color: black;
 }
 
-.icon {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 26.5vmax;
-    height: 26.5vmax;
-    margin: 3vmax;
-    min-width: 200px;
-    min-height: 200px;
-    padding: 10vmax 0;
-    border: 0.2vmax solid black;
-    transition: transform 0.2s;
+@media only screen and (min-device-width:321px) {
+    .icon {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 26.5vmax;
+        height: 26.5vmax;
+        margin: 3vmax;
+        min-width: 200px;
+        min-height: 200px;
+        padding: 10vmax 0;
+        border: 0.2vmax solid black;
+        transition: transform 0.2s;
+    }
 }
+
+@media only screen and (max-device-width:320px) {
+    .icon {
+        display: inline-block;
+        box-sizing: border-box;
+        width: 96vmin;
+        height: 96vmin;
+        margin: 3vmin 0;
+        min-width: 200px;
+        min-height: 200px;
+        padding: 10vmax 0;
+        border: 0.2vmax solid black;
+        transition: transform 0.2s;
+        color: white; /* for testing */
+    }
 
 .icon:hover {
     transform: scale(1.05)
@@ -58,12 +75,4 @@ a {
     width: device-width ;
     zoom: 1.0 ;
 }
-
-@media only screen and (max-device-width:320px) {
-    .icon {
-        width: 96vmin;
-        height: 96vmin;
-        margin: 3vmin 0;
-        color: white; /* for testing */
-    }
 }
