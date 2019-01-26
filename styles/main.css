@@ -5,7 +5,7 @@ header {
     font-size: 1.5em;
     background-image: linear-gradient(rgb(43, 0, 112), rgb(40, 0, 0), rgb(73, 17, 31));
     padding: 5px;
-    margin-bottom: 20px;
+    margin-bottom: 3vmin;
 }
 
 #layout-container {
@@ -17,34 +17,28 @@ a {
     color: black;
 }
 
-@media only screen and (min-width:321px) {
-    .icon {
-        display: inline-block;
-        box-sizing: border-box;
-        width: 26.5vmax;
-        height: 26.5vmax;
-        margin: 3vmax;
-        min-width: 200px;
-        min-height: 200px;
-        padding: 10vmax 0;
-        border: 0.2vmax solid black;
-        transition: transform 0.2s;
-    }
+.icon {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 26.5vmax;
+    height: 26.5vmax;
+    margin: 3vmax;
+    min-width: 200px;
+    min-height: 200px;
+    padding: 10vmax 0;
+    border: 0.2vmax solid black;
+    transition: transform 0.2s;
 }
+
 
 @media only screen and (max-width:479px) {
     .icon {
-        display: inline-block;
-        box-sizing: border-box;
         width: 96vmin;
         height: 96vmin;
         margin: 3vmin 0;
         min-width: 200px;
         min-height: 200px;
-        padding: 10vmax 0;
-        border: 0.2vmax solid black;
-        transition: transform 0.2s;
-        color: white;  /* for testing */
+        padding: 16.5vmax 0;
     }
 }
 
@@ -58,6 +52,12 @@ a {
     font-weight: bold;
     font-size: 4vmax;
     line-height: 1;
+}
+
+@media only screen and (max-width:479px) {
+    .icon-title {
+        font-size: 7vmax;
+    }
 }
 
 #stretch {
