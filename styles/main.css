@@ -18,14 +18,16 @@ a {
 }
 
 .icon {
-    display: inline-block;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     width: 26.5vmax;
     height: 26.5vmax;
     margin: 3vmax;
-    min-width: 200px;
-    min-height: 200px;
-    padding: 10vmax 0;
+    min-width: 100px;
+    min-height: 100px;
+    /* padding: 10vmax 0; */
     border: 0.2vmax solid black;
     transition: transform 0.2s;
 }
@@ -36,9 +38,7 @@ a {
         width: 96vmin;
         height: 96vmin;
         margin: 3vmin 0;
-        min-width: 200px;
-        min-height: 200px;
-        padding: 16.5vmax 0;
+        /* padding: 16.5vmax 0; */
     }
 }
 
